@@ -67,10 +67,8 @@ It is important to notice that setting the ODR register is possible, but would n
 ## Stack:
 #### Hardware:
 - Mac OS machine with USB adapter
-
 - [WeAct Black Pill V2.0 - STM32F411CEU6](https://stm32-base.org/boards/STM32F411CEU6-WeAct-Black-Pill-V2.0.html)
 All pins must be soldered, including GND, SWSCK, SWDIO, and 3.3V. Working with a breadboard is not necessary, but it is usually better.
-
 - ST-Link Programmer (tested and working with the Aideepen ST Link V2 Programming Unit [amazon.com](https://www.amazon.com/dp/B01J7N3RE6?psc=1&ref=ppx_yo2ov_dt_b_product_details)
 
 #### Software:
@@ -82,7 +80,7 @@ All pins must be soldered, including GND, SWSCK, SWDIO, and 3.3V. Working with a
 - XCode and XCode command line tools (dependencies for GDB)
 
 ## References:
-https://github.com/stm32-rs/stm32f4xx-hal
-https://github.com/antoinevg/daisy_bsp
-https://forum.electro-smith.com/t/rust-starter-for-daisy-seed/684
-[Antoine van Gelder's inspiring ADC20 talk](https://www.youtube.com/watch?v=udlK1LQ3f3g)
+- https://github.com/stm32-rs/stm32f4xx-hal
+- https://github.com/antoinevg/daisy_bsp
+- https://forum.electro-smith.com/t/rust-starter-for-daisy-seed/684
+- [Antoine van Gelder's inspiring ADC20 talk](https://www.youtube.com/watch?v=udlK1LQ3f3g)
